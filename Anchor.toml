@@ -1,0 +1,12 @@
+[programs.devnet]
+solana_alkes_contract = "J5QfhmCuNNJtYvFjwzSTxGxoQ9yRKhvKodddh8KLBrzF"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/momrider69/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
